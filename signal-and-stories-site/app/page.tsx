@@ -4,18 +4,15 @@ export default function Page() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        My Portfolio
+        Signal and Stories
       </h1>
       <p className="mb-4">
-        {`I'm a Vim enthusiast and tab advocate, finding unmatched efficiency in
-        Vim's keystroke commands and tabs' flexibility for personal viewing
-        preferences. This extends to my support for static typing, where its
-        early error detection ensures cleaner code, and my preference for dark
-        mode, which eases long coding sessions by reducing eye strain.`}
+        {` I’m Todd Perumal — a product builder, lifelong learner, and believer in momentum over perfection.
+        I started Signal and Stories as a place to learn in public, explore economic and behavioral signals, and turn insights into small, tangible experiments.
+        This site is my sandbox. Some weeks I’ll build features. Other weeks I’ll analyze data, write essays, or ship new components.
+        But every week, I’ll be pushing forward — stacking signal, shipping stories, and learning from the process.`}
       </p>
-      <div className="my-8">
-        <BlogPosts />
-      </div>
+  
     </section>
   )
 }
